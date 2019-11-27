@@ -1,0 +1,276 @@
+Disclaimer: terminology is seldom standardized. The distinction between languages can be astounding. E.g. class versus struct differences OR static OR the size of an int. Your mileage may vary (Ymmv).
+
+Design Patterns:
+https://en.wikipedia.org/wiki/Software_design_pattern
+ERD (Entity Relationship Diagram)
+Iterator vs Visitor (of iterators: output, input, forward, random-access) 
+LAMP stack
+Named Constructor Idiom
+Resource Acquisition Is Initialization (RAII)
+SOLID (Single Responsibility Principle, Open/Close Principle, Liskov's Substitution Rule, Interface Segregation, Dependency Inversion)
+MEAN stack
+Multitier Architecture (N-tier) including Three-tier architecture
+MVC (Model-View-Controller)
+MVVM (Model-View-Viewmodel)
+UML (Unified Modelling Language)
+
+Data Types:
+Static typing (compile-time) vs Dynamic typing (runtime)
+Strong typing (explicit type conversion) vs Weak typing (implicit type conversion)
+Duck typing (dynamic typing that only cares if it "walks like a duck and swims like a duck" e.g. if the properties and methods exist, no problem)
+Plain old data (POD) types
+Primative Data Type
+Composite Data Type
+Value Type (e.g. structure) vs Reference Type (e.g. class)
+Read-only vs Write-only vs Readwrite
+Volatile
+Shared
+Thread-safe
+
+Math:
+Big O notation
+- constant time - O(1)
+- logarithmic time - O(log_2(n))
+- linear time - O(n)
+- polynomial time - e.g. O(n^2)
+- exponential time - e.g. O(2^n)
+- factorial time - O(n!)
+Big Omega Notation
+Big Theta Notation
+little o Notation
+little omega Notation
+little theta Notation
+Stirling's approximation
+Factorial
+Fibonacci numbers
+Prime numbers
+
+Hardware:
+CPU
+GPU
+ALU
+TLB
+Register
+L1 - L4 Cache (instruction, data)
+Main memory (RAM)
+Disk (Hard drive or solid state drive)
+RAM
+SSD
+Memory Bus
+Address
+Branch (mis)prediction
+Cache eviction
+Cache hit
+Cache invalidation
+Cache line
+Cache miss
+Cache prefetching
+False sharing
+Interrupt
+Instruction
+Instruction piplelining
+No-op (no-operation: CPU idle and software debugging)
+Pipeline stall
+Speculative execution
+
+Data structures:
+Abstract Data Type vs Data Structure
+Bloom filter (Google talks about this data structure more than most companies)
+Arrays
+Stacks
+Queues
+Priority Queue
+Linked Lists
+Trees (AVL, red-black, splay)
+Graphs
+Tries
+Hash Tables
+(Minimum) Heap
+String Interning
+String Builder
+Rope
+Span
+Object Pool (different than allocator)
+
+Algorithms:
+
+Graph theory:
+A* (A star)
+Breadth-first search
+Depth-first search
+Kruskal's Algorithm (Minimum Spanning Tree)
+Prim's Algorithm (Minimum Spanning Tree)
+Reverse-Delete (Minimum Spanning Tree)
+
+Scheduling:
+Round-Robin
+
+1D algorithms:
+Binary search
+Exponential search
+Gallop search (see exponential search)
+Interpolation search
+Linear search
+Median Of Medians
+Quickselect
+Heapify (Make Heap)
+Up Heap
+Down Heap
+
+Sorting:
+Stable vs Unstable
+Hybrid
+In-place vs Out-of-place (e.g. no call stack)
+Top-down vs Bottom-up
+Deterministic vs Non-deterministic
+Data-oblivious
+
+Other terms:
+0th, 1st, 2nd 3rd normal forms (of databases)
+1s complement vs 2s complement (signed arithmetic)
+1st - 5th generation language
+Abstraction
+Accuracy vs Precision
+Allocator (different than Object Pooling)
+Amortized
+Anonymous Function (see Lambda)
+Arithmetic (math) vs Conditional (branching) for hardware
+Argument vs Parameter
+ASCII / UTF8 / Unicode
+Assertions / Constraints / Invariants
+Assembly code
+
+Binary vs Hexadecimal vs Octal
+Bit vs Byte vs Word vs Cache Line vs Page
+Bind
+Bitwise arithmetic (AND (&) - bitwise multiplication, OR (|) - bitwise addition, XOR (^) - bitwise exclusive or, left shift (<<), right shift (>>)) 
+Bottleneck (CPU, GPU, bandwidth, memory)
+Boxing
+Breakpoint
+Brute-force
+Buffer
+Buffering
+Byte Alignment vs Offset (related to quick data retrieval)
+Cache coherence
+Cache friendly
+Call by value / Call by reference / Call by name
+Callback / call-after / hook
+Call stack
+Child / Parent
+Client vs Server
+Clobber / Corrupt
+Clone / Copy (Shallow, Deep, Lazy)
+Closure (see lambda)
+Co-routine vs Sub-routine vs Routine
+Collision (usually of hashtables or network traffic)
+Compiled vs Interpreted
+Constructor vs Destructor
+Contiguous (e.g. array)
+Contract (usually of interfaces)
+Control Flow
+Controller
+Core Dump / Memory Dump / Log
+Coupling (Efferent vs Afferent, operational / development / semantic / functional / incidental)
+Cyclomatic complexity
+Daemon
+Data Breakpoint (similar to code breakpoints)
+Data Trace
+Data Rot vs Bit Rot vs Software Rot
+Deadlock
+Debug
+Declaration (multiple declarations usually allowed) vs Definition (one definition usually allowed)
+Decompile
+Decomposition
+Decoupling (see coupling)
+Defensive Programming
+//Delegate
+Dependency
+Dependency Injection
+Deprecate / Obsolete
+Diamond problem (Multiple inheritance)
+Encapsulation
+Endianness (Big/Little, Most Significant/Least Significant Byte)
+Ephemeral
+Error vs fault vs failure vs mistake
+Fallback
+Field/Variable vs Property vs Method/Function
+(Finite) State Machine
+First In, First Out (queue) vs First In, Last Out (stack)
+Function overloading
+Function pointer (different than a lambda / anonymous function / closure)
+Functional programming (language/paradigm)
+Garbage Collection / Collector
+Greedy algorithm
+Hard vs Soft Errors (also critical/fatal/Byzantine/crash/omission/response/timing errors, kernel panic)
+Hardening (network security)
+Header vs Payload vs Footer
+Heap vs Stack (allocation)
+Heartbeat
+Hierarchy
+Hit
+Hole
+Hook
+IEEE 754 (floating-point arithmetic)
+If and Only If ("iff")
+Infinite Loop
+Inlining
+Input Validation vs Sanitization (Also filter, normalization, or whitening)
+Inspector vs Mutator functions
+Interrupt (hardware)
+Inversion of Control
+"Is a" (e.g. public inheritance) vs "Has a" (e.g. composition) 
+Isolation
+Issue
+Job / Subroutine / Task / Thread
+Jump (of branching)
+Lambda (differences from raw function pointer (holds object/data references))
+Latency
+Lazy evaluation
+L value vs R value
+Least Significant
+Lifetime (and Scope)
+Lock / Mutex (Mutual Exclusion) / Semaphore
+Lossy vs Lossless compression
+Malformed feedback
+Mantissa (also significand)
+Memory Leak (specific type of resource leak)
+Merging vs Rebasing (version control)
+Nonfunctional requirements (performance, development)
+Not a Number (float value - NaN)
+Off-by-one errors
+Optimal (usually of Dynamic Programming or the Gale-Shapley stable matching algorithm)
+Orphan
+Overflow
+Pass by value / Pass by reference / Pass by name
+Pointer vs Reference (of pointers: raw, weak, shared, unique) 
+Polymorphism (static (compile time - overloading, templates, generics) vs dynamic (runtime - object 
+Profiling (Memory, Performance,)
+Pseudocode
+Public vs Private vs Protected vs Internal
+Recursion
+Resource Leak
+(Web) scraping
+Segmentation Fault (segfault)
+Sentinel node
+Side effect (IO, mutability)
+Shared Pointer
+Significand (also mantissa)
+Stack trace
+Task vs Thread vs Job vs App vs Process
+Testing (validation, unit, integration, functional)
+Type casting (upcast, downcast, static, dynamic, reinterpret, constant)
+Type coercion
+Type promotion / demotion
+Uncoupling (see coupling)
+Undefined behavior
+Variable shadowing (scope hiding)
+Version control
+Virtual Memory vs Memory Virtualization
+Void type
+Warnings as errors (best practices)
+Widow
+Workaround
+Yield
+
+IEEE Standard Glossary of Software Engineering Terminology: 
+http://www.mit.jyu.fi/ope/kurssit/TIES462/Materiaalit/IEEE_SoftwareEngGlossary.pdf (I'll try to add the official .pdf link later)
